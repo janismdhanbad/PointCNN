@@ -28,7 +28,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    root = args.folder if args.folder else '../../data/s3dis'
+    root = args.folder if args.folder else '/home/datumx/data_science_experiments/3D_data/data/S3DIS/prepare_label_rgb'
     max_point_num = args.max_point_num
 
     batch_size = 2048
